@@ -27,4 +27,4 @@ Enable and analyze VPC Flow Logs to monitor traffic patterns and security events
 ```sql
 fields srcAddr, dstAddr, action, protocol
 | sort @timestamp desc
-| limit 20
+| limit 19
